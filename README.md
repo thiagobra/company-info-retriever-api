@@ -18,18 +18,11 @@ This repository contains a Python script that retrieves the **official website**
 1. Clone this repository:
 git clone https://github.com/thiagobra/company-info-retriever-api.git cd company-info-retriever-api
 
-markdown
-Copy code
 3. Install required Python packages:
 pip install requests
 
-vbnet
-Copy code
 3. Set your Perplexity API key as an environment variable:
 export PERPLEXITYAI_API_KEY="your_api_key_here"
-
-markdown
-Copy code
 
 ## 🚦 Usage
 1. Prepare an input CSV file (`companies.csv`) with at least one column:
@@ -38,14 +31,8 @@ Copy code
 Example:
 CompanyName Google Microsoft Apple
 
-markdown
-Copy code
-
 2. Run the script:
 python main.py
-
-markdown
-Copy code
 
 3. 🏁 Output CSV (`companies_with_website_and_product.csv`) will contain:
 - 🏢 `CompanyName`: Original company name from input.
